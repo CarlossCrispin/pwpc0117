@@ -1,0 +1,22 @@
+{
+  "name": "simple-static-server",
+  "description": "servidor estatico simple",
+  "main": "server.js",
+  "authors": [
+    "Crispin"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "static",
+    "server"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/vendor",
+    "test",
+    "tests"
+  ]
+}
