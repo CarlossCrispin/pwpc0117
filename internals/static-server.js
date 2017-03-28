@@ -66,7 +66,8 @@ exports.serve =function(req,res){
                 'Server':'ITGAM@0.0.1'
             });  
         res.end('<body background="../img/error.jpg"> <h1 style="color:red">'+
-        `--->404: Not Found`+'</h1> </body>');  
+        `--->404: Not Found`+' <p><a href="index.html"><button>regresar</button></a></p>'+
+        '</h1> </body>');  
         }
     })
 }
