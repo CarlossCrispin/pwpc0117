@@ -20,7 +20,7 @@ colors.setTheme(config.color_theme);
 //creando server
 var server = http.createServer(function(req,res){
     //logeando la peticion
-    console.log(`--> Peticion entrante: ${req.url}`.data);
+    console.log(`--> Peticion entrante:${req.url}`.data);
 
     //mandando al index si no pide recursos
     //variable que almacenara la ruta absoluta del archivo a ser servido

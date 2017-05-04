@@ -2,40 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"-->
     <title>Awesome Page</title>
-    <!-- los estilos de bootstrap-->
-    <link rel="stylesheet" 
-    href="vendor/bootstrap/dist/css/bootstrap.min.css">
-    <!-- cargando el estilo-->
-    <link rel="stylesheet" 
-    href="vendor/bootstrap/dist/css/bootstrap-theme.min.css">
+    <!--style>
+        label{
+            
+        }
+    </style-->
     <!--cargando estilos-->
     <link rel="stylesheet" href="css/site.css">
-    <!--cargando los tylos de sweet alert-->
-    <link rel="stylesheet" href="vendor\sweetalert\dist\sweetalert.css">
-</head>
-<body>
-   
-    <h1>ITGAM -TICS</h1>
-    <p>Sitio de la carrera de ITICS</p>
-    <p>
-        <button onclick="saludar()">
-            Saludar
-        </button>
-    </p>
-      
+    <!-- Cargando los estilos de sweet alert-->
+    <link 
+    rel="stylesheet" 
+    href="vendor/bootstrap/dist/css/bootstrap-theme.min.css">
 
-    <!--<a href="hora.html"><button>Hora</button></a>
-     <img src= "../img/sab.jpg" alt= "examen html" width="240" height="230">-->
-     <!--cargando a Jquery-->
-     <script 
-     src='vendor/jquery/dist/jquery.min.js'></script>
-      <!--cargando a Bootstrap-->
-     <script 
-     src='vendor/bootstrap/dist/js/bootstrap.min.js'></script>
-    <!--cargar script de sweet alert-->
-    <script src='vendor/sweetalert/dist/sweetalert.min.js'></script>
-    <!--cargando Scripts-->
+     <link 
+    rel="stylesheet" 
+    href="vendor/bootstrap/dist/css/bootstrap.min.css">
+
+     <link 
+    rel="stylesheet" 
+    href="vendor\sweetalert\dist\sweetalert.css">
+</head>
+<body style="background: cyan">
+      
+    <div class="bs-example">
+        <form 
+        action="\"
+        method="POST"
+        style="padding-top: 10px;"
+        class="form-horizontal">
+
+            <div class="form-group">
+                <label for="" class="control-label col-xs-5">
+                    INGRESE LOS DATOS
+                </label>
+            </div>
+            <div class="form-group">
+                <label 
+                    for="inputNombre"
+                    class="control-label col-xs-2">
+                    Nombre del Producto :
+                </label>
+                <div class="col-xs-5">
+                    <input 
+                    required
+                    class="form-control"
+                    type="text"
+                    name="articulo"
+                    id="inputArticulo"
+                    placeholder="Nombre">
+                </div>
+            </div>
+             <div class="form-group">
+                <label 
+                    for="inputApellidos"
+                    class="control-label col-xs-2">
+                    Marca del Producto :
+                </label>
+                <div class="col-xs-5">
+                    <input
+                    required 
+                    class="form-control"
+                    type="text"
+                    name="marca"
+                    id="inputApellidos"
+                    placeholder="Marca">
+                </div>
+             </div>    
+
+             <div class="form-group">
+                <label 
+                    for="inputDepto"
+                    class="control-label col-xs-2">
+                    Numero de Unidades :
+                </label>
+                <div class="col-xs-5">
+                    <input 
+                    required
+                    class="form-control"
+                    type="text"
+                    name="unidades"
+                    id="inputDepto"
+                    placeholder="Num Unidades">
+                </div>
+    
+            </div>
+             <div class="form-group">
+                <label 
+                    for="inputPassword"
+                    class="control-label col-xs-2">
+                    ID del Articulo:
+                </label>
+                <div class="col-xs-5">
+                    <input 
+                    required
+                    class="form-control"
+                    type="_id"
+                    name="_id"
+                    id="inputPassword"
+                    placeholder="Ingrese ID"
+                    maxlength="8">
+                </div>
+            </div>
+            <!--seccion de envio-->
+            <div class="col-xs-offset-2 col-xs-10">
+                <input 
+                type="submit"
+                class="btn btn-primary"
+                value="Registrar">
+                <input 
+                type="button" 
+                onclick=" location.href='http://127.0.0.1:3000/getfind' "
+                value="Mostrar Articulos" 
+                name="boton"
+                class="btn btn-primary" />
+            </div>
+             
+        </form>
+    </div>
+            
+   <!--cargando a jquery-->
+    <script src='vendor/jquery/dist/jquery.min.js'></script>
+      <!--cargando boostrap-->
+    <script src='vendor\bootstrap\dist\js\bootstrap.min.js'></script>
+
+    <!--cargar los scrips de sweetalert-->
+    <script src='vendor\sweetalert\dist\sweetalert.min.js'></script>
+    <!--cargando scrips-->
     <script src='js/site.js'></script>
 </body>
 </html>

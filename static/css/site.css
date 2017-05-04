@@ -1,7 +1,18 @@
 h1{
     color:cyan;
 }
-
+h2{
+    color:darkcyan;
+}
+div{
+    color:darkcyan;
+    font-style:initial ;
+    border: width border-style color;
+}
+body{
+    
+    background-color: cyan
+}
 
 
   

@@ -9,7 +9,7 @@ var fs = require('fs'),
 //servidor estatico
 exports.serve =function(req,res){
     var resourcePath;
-    if(req.url == "/")
+    if(req.url=="/")
     {
         //el cliente no especifica recurso
         resourcePath = path.resolve('./static/index.html');
@@ -32,11 +32,6 @@ exports.serve =function(req,res){
             //El recurso existe y se intentara leer
           fs.readFile(resourcePath,function(err,content){
               //verifico si hubo un error en la lectura
-               var d = new Date(),
-                horas= d.getHours(),
-                minutos=d.getMinutes(),
-                segundos=d.getSeconds(),
-                hor =`${horas}:${minutos}:${segundos}`;
               if(err){
                   console.log('-->Error en la lectura de recurso'.error);
                   //hubo error de lectura
