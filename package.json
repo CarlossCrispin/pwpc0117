@@ -2,16 +2,15 @@
   "name": "simple-static-server",
   "version": "1.0.0",
   "description": "servidor estatico simple",
- "engines": {
+  "main": "index.js",
+  "engines": {
     "node": "6.10.2",
     "npm" : "~2.11.3"
   },
-
-  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "postinstall": "bower install"
+    "postinstall": "./bower install"
   },
   "repository": {
     "type": "git",
