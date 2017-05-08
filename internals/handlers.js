@@ -1,8 +1,6 @@
 var staticServer =require("./static-server");
-var config = require("./config/config");
-var url = config.url;
 //var mongo = require('mongodb').MongoClient;
-//var url = 'mongodb://127.0.0.1:27017/Condominio'
+var url = 'mongodb://127.0.0.1:27017/Condominio'
 //cargando una liberia que
 //permite persear la informacion
 //de formularios
