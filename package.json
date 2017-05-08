@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "servidor estatico simple",
   "engines": {
-    "node": "6.10.2"
+    "node": "6.9.4"
   },
   "main": "server.js",
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "postinstall": "bower install"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
