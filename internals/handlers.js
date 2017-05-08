@@ -28,11 +28,7 @@ var getAuthorInfo = function (req, res) {
     res.end(jsonResponse);
 }
 
-    var getServerName = function (req, res) {
-        console.log("Respondiendo Nombre del servidor...\n");
-        res.end(`>Servidor Halcones Peregrinos`);
-    }
-
+ 
     var getServerName= function(req,res){
         console.log('--> Respondiendo nombre del Server...');
         res.end(' ----->  Leviatan >:( ');
