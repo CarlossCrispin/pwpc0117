@@ -2,22 +2,14 @@
   "name": "simple-static-server",
   "version": "1.0.0",
   "description": "servidor estatico simple",
-  "main": "index.js",
-  "engines": {
+    "engines": {
     "node": "6.9.4"
   },
-<<<<<<< HEAD
-  "main": "index.js",
-  
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-=======
+  "main": "index.js",  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "postinstall": "./bower install"
->>>>>>> e955ec0df92fab135c5bbafeef9d87f4cb12ab60
   },
   "repository": {
     "type": "git",
