@@ -13,6 +13,5 @@ module.exports = {
         "warning":"yellow"
     },//estatico
     "STATIC_PATCH":"./static",
-    "dbStringConnection":process.env.DB || "mongodb://carlos:crispin@ds131511.mlab.com:31511/condominio"
-    
+    "dbStringConnection":process.env.DB || "mongodb://carlos:crispin@ds131511.mlab.com:31511/condominio"  
 };
