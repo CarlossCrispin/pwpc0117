@@ -1,6 +1,6 @@
 var staticServer =require("./static-server");
 var config = require("../config/config");
-var MongoClient = require("mongodb").MongoClient;
+var mongo = require("mongodb").MongoClient;
 
 var stringConnection = config.dbStringConnection;
 console.log(`BD : ${stringConnection}`);
