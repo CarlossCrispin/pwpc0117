@@ -99,36 +99,6 @@ var getPostRoot = function(req, res){
                 'Content-Type':'text/html'
             });
             //respondiendo con los datos recibidos
-            /*res.write(`*********************************************************************
-            <body style="background:darkcyan"></body>`);
-            res.write(`<h1 style="color:cyan">EL REGISTRO FUE EXITOSO !!</h1>
-            *********************************************************************`);
-            res.write(`<h1 style="color:cyan">Datos recibidos</h1>
-            *********************************************************************`);
-           /*res.write(`<h2 style="color:darkcyan">Datos Crudos</h2>
-            *********************************************************************`);
-            res.write(`<h2 style="color:darkcyan">Datos sin parsear:</h2>`);
-            res.write(`<p style="color:darkcyan"> ${postData}</p>
-            *********************************************************************`);
-            res.write(`<h2 style="color:darkcyan">Datos como Objeto</h2>`);
-             res.write(`<p style="color:darkcyan"> ${typeof(data)}</p>`);
-            res.write(`<p style="color:darkcyan"> ${JSON.stringify(data)}</p>
-            *********************************************************************`);
-             res.write(`<h2 style="color:darkcyan">Datos parseados: </h2>`);
-            res.write('<ul style="color:cyan">');
-           // res.write(`${Object.prototype.hasOwnProperty.call(data, key)}`);
-            for(var key in data){
-                if(data.hasOwnProperty(key)){
-                    res.write(
-                        `<li>${key.toString().toUpperCase()} : ${data[key]}</li>`
-                    );
-                }
-            for(var key in data){
-                if(Object.prototype.hasOwnProperty.call(data, key)){
-                    res.write(
-                        `<li>${key.toString().toUpperCase()} : ${data[key]}</li>`);
-                } 
-            }*/
             
  mongo.connect(url, function(err, db) {
       if (err) throw err
