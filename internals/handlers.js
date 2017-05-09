@@ -162,7 +162,7 @@ var getPostRoot = function(req, res){
              }
            res.write(`<input 
                 type="button" 
-                onclick=" location.href='http://localhost:3000' "
+                onclick=" location.href='index.html' "
                 value="Regresar" 
                 name="boton"
                 class="btn btn-primary" /></h1>`); 
