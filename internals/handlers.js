@@ -2,7 +2,7 @@ var staticServer =require("./static-server");
 var config = require("../config/config");
 var mongo = require("mongodb").MongoClient;
 
-var stringConnection = config.dbStringConnection;
+var url = config.dbStringConnection;
 console.log(`BD : ${stringConnection}`);
 //var mongo = require('mongodb').MongoClient;
 //var url = 'mongodb://127.0.0.1:27017/Condominio'
