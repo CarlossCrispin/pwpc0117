@@ -1,6 +1,11 @@
 var staticServer =require("./static-server");
+var config = require("../config/config");
+var MongoClient = require("mongodb").MongoClient;
+
+var stringConnection = config.dbStringConnection;
+console.log(`BD : ${stringConnection}`);
 //var mongo = require('mongodb').MongoClient;
-var url = 'mongodb://127.0.0.1:27017/Condominio'
+//var url = 'mongodb://127.0.0.1:27017/Condominio'
 //var url = 'mongodb://carlos:crispin@ds131511.mlab.com:31511/condominio'
 
 //cargando una liberia que
