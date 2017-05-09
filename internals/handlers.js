@@ -199,7 +199,7 @@ var getfind = function (req, res) {
                   <h1 style="color:cyan">****************************************</h1>`);
                   res.write(`<input 
                 type="button" 
-                onclick=" location.href='http://127.0.0.1:3000' "
+                onclick=" location.href='index.html' "
                 value="Regresar" 
                 name="boton"
                 class="btn btn-primary" /></h1>`); 
@@ -219,7 +219,7 @@ var getfind = function (req, res) {
                     }
                     res.write(`<input 
                 type="button" 
-                onclick=" location.href='http://127.0.0.1:3000' "
+                onclick=" location.href='index.html' "
                 value="Regresar" 
                 name="boton"
                 class="btn btn-primary" /></h1>`); 
