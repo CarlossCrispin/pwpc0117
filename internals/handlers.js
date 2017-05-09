@@ -1,6 +1,8 @@
 var staticServer =require("./static-server");
 //var mongo = require('mongodb').MongoClient;
-var url = 'mongodb://localhost:27017/condominio'
+var url = 'mongodb://localhost:27017/Condominio'
+//var url = 'mongodb://carlos:crispin@ds131511.mlab.com:31511/condominio'
+
 //cargando una liberia que
 //permite persear la informacion
 //de formularios
